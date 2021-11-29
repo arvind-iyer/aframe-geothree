@@ -3,7 +3,7 @@
 [![Version](http://img.shields.io/npm/v/aframe-geothree-component.svg?style=flat-square)](https://npmjs.org/package/aframe-geothree-component)
 [![License](http://img.shields.io/npm/l/aframe-geothree-component.svg?style=flat-square)](https://npmjs.org/package/aframe-geothree-component)
 
-World-scale maps using geo-three and support for multiple map providers (Mapbox, Bing, HereMaps, etc)
+World-scale maps using [geo-three](https://github.com/tentone/geo-three) and support for multiple map providers (Mapbox, Bing, HereMaps, etc)
 
 For [A-Frame](https://aframe.io).
 
