@@ -25,6 +25,35 @@ For [A-Frame](https://aframe.io).
 | mapTilerApiKey | MapTiler API Key when using MapTiler maps providers | '' | 
 | openMapTilesServerMap | Server path for self-hosted OpenMapTiles Server | '' |   
 
+### Providers 
+
+List of available providers with required component parameters in square brackets:
+
+TODO: Add screenshots for each provider
+
+- openstreetmaps
+- opentilemaps [openMapTilesServerMap]
+- mapbox-vector [mapboxApiKey]
+- mapbox-satellite [mapboxApiKey]
+- mapbox-satellite-labels [mapboxApiKey]
+- mapbox-dark [mapboxApiKey]
+- mapbox-custom-style [mapboxApiKey, mapboxCustomStyle]
+- heremaps-vector [hereMapsAppCode, hereMapsAppId]
+- heremaps-vector-night [hereMapsAppCode, hereMapsAppId]
+- heremaps-vector-terrain [hereMapsAppCode, hereMapsAppId]
+- bingmaps-vector [bingApiKey]
+- maptiler-vector-basic [mapTilerApiKey]
+- maptiler-vector-outdoor [mapTilerApiKey]
+- heremaps-satellite [hereMapsAppCode, hereMapsAppId]
+- bingmaps-satellite [bingApiKey]
+- maptiler-satellite-labels [mapTilerApiKey]
+- maptiler-satellite [mapTilerApiKey]
+- mapbox-height [mapboxApiKey]
+- maptiler-height [mapTilerApiKey]
+- mapbox-debug-height [mapboxApiKey]
+- debug
+
+
 ### Installation
 
 #### Browser
